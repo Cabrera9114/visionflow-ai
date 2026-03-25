@@ -114,35 +114,47 @@ cd visionflow-ai
 
 ```
 ### 2. Create a Virtual Environment
+```bash
 python -m venv venv
 
+```
 ### 3. Activate the Virtual Environment
 
 Windows (PowerShell):
+```bash
 .\venv\Scripts\Activate.ps1
+
 
 Mac/Linux:
 source venv/bin/activate
 
+```
 ### 4. Install Dependencies
+```bash
 pip install -r requirements.txt
 
+```
 ### 5. Set Up Environment Variables
 
 Create a .env file in the root folder and add:
-
+```bash
 OPENAI_API_KEY=your_api_key_here
 
+```
 ### 6. Run the Applications
+```bash
 streamlit run app.py
 
+
+```
 ### 7. Open in Browser
 If it does not open automatically, go to:
-
+```bash
 http://localhost:8501
 
 ---
 
+```
 ## 👨‍💻 Author
 
 Eduardo Cabrera-Lopez
