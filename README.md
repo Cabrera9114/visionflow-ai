@@ -98,16 +98,21 @@ visionflow-ai/
 │   ├── checklist_generator.py
 │   └── alerts.py
 
-
 ---
 
 ## ▶️ How to Run (Step-by-Step)
 
+---
+
+###
+```
 ### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/Cabrera9114/visionflow-ai.git
 cd visionflow-ai
 
+```
 ### 2. Create a Virtual Environment
 python -m venv venv
 
@@ -136,7 +141,7 @@ If it does not open automatically, go to:
 
 http://localhost:8501
 
-
+---
 
 ## 👨‍💻 Author
 
