@@ -1,5 +1,9 @@
 # 🎛️ VisionFlow AI Pro
 
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![OpenAI](https://img.shields.io/badge/OpenAI-API-green)
+
 AI Smart Church Production Assistant built with Python, Streamlit, and OpenAI.
 
 ---
@@ -11,6 +15,13 @@ AI Smart Church Production Assistant built with Python, Streamlit, and OpenAI.
 It combines artificial intelligence with real-world digital media workflows to generate structured service plans, production run sheets, volunteer assignments, checklists, and risk alerts.
 
 The system supports **English, Spanish, and bilingual output**, making it accessible for diverse teams.
+
+---
+
+## 📸 Screenshots
+
+![Dashboard](assets/dashboard.png)  
+![Service Output](assets/service_output.png)
 
 ---
 
@@ -58,11 +69,11 @@ VisionFlow AI automates this process by:
 
 ## 🛠️ Tech Stack
 
-- **Python**
-- **Streamlit**
-- **OpenAI API**
-- **Pandas**
-- **python-dotenv**
+- Python
+- Streamlit
+- OpenAI API
+- Pandas
+- python-dotenv
 
 ---
 
@@ -73,6 +84,9 @@ visionflow-ai/
 │── app.py
 │── requirements.txt
 │── .gitignore
+├── assets/
+│   ├── dashboard.png
+│   └── service_output.png
 ├── data/
 │   └── team_members.csv
 ├── modules/
@@ -83,3 +97,48 @@ visionflow-ai/
 │   ├── volunteer_planner.py
 │   ├── checklist_generator.py
 │   └── alerts.py
+
+
+---
+
+## ▶️ How to Run (Step-by-Step)
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Cabrera9114/visionflow-ai.git
+cd visionflow-ai
+
+### 2. Create a Virtual Environment
+python -m venv venv
+
+### 3. Activate the Virtual Environment
+
+Windows (PowerShell):
+.\venv\Scripts\Activate.ps1
+
+Mac/Linux:
+source venv/bin/activate
+
+### 4. Install Dependencies
+pip install -r requirements.txt
+
+### 5. Set Up Environment Variables
+
+Create a .env file in the root folder and add:
+
+OPENAI_API_KEY=your_api_key_here
+
+### 6. Run the Applications
+streamlit run app.py
+
+### 7. Open in Browser
+If it does not open automatically, go to:
+
+http://localhost:8501
+
+
+
+## 👨‍💻 Author
+
+Eduardo Cabrera-Lopez
+AI Student | Digital Media Experience | Aspiring AI Engineer
