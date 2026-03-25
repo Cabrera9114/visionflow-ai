@@ -100,11 +100,12 @@ visionflow-ai/
 
 ---
 
+
+```
 ## ▶️ How to Run (Step-by-Step)
+```text
 
----
 
-###
 ```
 ### 1. Clone the Repository
 
@@ -152,7 +153,7 @@ If it does not open automatically, go to:
 ```bash
 http://localhost:8501
 
----
+
 
 ```
 ## 👨‍💻 Author
