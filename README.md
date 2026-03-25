@@ -23,7 +23,7 @@ The system supports **English, Spanish, and bilingual output**, making it access
 ### 🎛️ Dashboard
 ![Dashboard](assets/Screenshot%202026-03-25%20154220.png)  
 
-### 🎛️ Dashboard
+### 📄 Generated Service Output
 ![Service Output](assets/service_output.png)
 
 ---
